@@ -9,3 +9,8 @@ Console.WriteLine(a.ToString());
 Console.WriteLine(a.getNom());
 Console.WriteLine(a.getPoids());
 Console.WriteLine(a.poidsSouleve()+"kg");
+a.setDose(3);
+Console.WriteLine($"{a.getNom()} prend {a.getPotion().getDoses()} doses");
+Console.WriteLine("Apres les doses " + a.plusFort(b));
+Console.WriteLine($"{a.getNom()} soulève {a.poidsSouleve()} poids");
+Console.WriteLine($"{b.getNom()} soulève {b.poidsSouleve()} poids");

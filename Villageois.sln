@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libVillageois", "Villageois\libVillageois.csproj", "{12F822E3-29BD-4DD8-BB0F-1BAFAE551BE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cslVillageois", "cslVillageois\cslVillageois.csproj", "{96166276-56A5-4CAB-A4D5-7FBDF9B3470D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cslVillageois", "cslVillageois\cslVillageois.csproj", "{96166276-56A5-4CAB-A4D5-7FBDF9B3470D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
