@@ -49,9 +49,10 @@
                 }
                 return $"Le villageois se nomme {this.nom} peut soulever {this.poids} et {this.malade}";
         }
-        public double poidsSouleve() 
+        public int poidsSouleve() 
         {
-            return poids / 5;
+            double dopage = poids * (1 + this.maPotion.conséquencesdoses())/5;
+            return Convert.ToInt32(dopage);
         }
         public void setPoids(int poids)
         {
@@ -66,16 +67,6 @@
             }
             return condit ;
             
-        }
-        public void conséquencesdoses()
-        {
-            if (maPotion.getDoses() < 5)
-            {
-                for (int i = 0; i < 6; i++)
-                {
-                    this.poids = this.poids * 1.1;
-                }
-            }
         }
         public void setDose (int dose)
         {

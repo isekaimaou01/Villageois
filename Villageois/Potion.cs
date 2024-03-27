@@ -2,7 +2,7 @@
 {
     public class Potion
     {
-        private double dose;
+        private int dose;
 
 
         public Potion(int dose)
@@ -13,10 +13,19 @@
         {
             dose = nbdose + dose ;
         }
-        public double getDoses()
+        public int getDoses()
         {
             return dose;
         }
-
+        public double conséquencesdoses()
+        {
+            double ret = 0;
+            if (dose < 5)
+            {
+               ret = 0.5;
+            }
+            return ret;
+        }
     }
+    
 }
